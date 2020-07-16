@@ -14,7 +14,7 @@
 
 ### Python version:
 
-* the implementation of the ball k-means algorithm is 'ball-kmeans-Xf.py' and 'ball-kmeans-Xd.py'.
+* the implementation of the ball k-means algorithm is 'ball_k_means_Xf.py' and 'ball_k_means_Xd.py'.
 
 
 ### Description of 'Xd' and 'Xf' versions：
