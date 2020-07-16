@@ -2,11 +2,14 @@
 
 * Implementations of ball k-means algorithms as described in xxxxxxx.
 
-* ball_k_means_noRingVersion.cpp is the implementation of the ball k-means algorithm without dividing the ring area.
+* the implementation of the ball k-means algorithm using C++ can be find in 'C++Version' file.
 
-* ball_k_means_RingVersion.cpp is the implementation of the ball k-means algorithm with dividing the ring area.
+* the implementation of the ball k-means algorithm using Python can be find in 'PythonVersion' file.
 
-* ball_kmean.rar is the Python version of the ball k-means algorithm.
+### C++ version:
+
+### Python version:
+
 
 # Requirements
 
@@ -27,7 +30,7 @@
 
 ### Installation requirements (Python):
 
-* Only need to rely on the dll and lib files in the compressed package 'ball_kmean.rar'.
+* Only need to rely on the dll files.
 
 # Installation (C++)
 
