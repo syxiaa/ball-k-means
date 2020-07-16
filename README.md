@@ -17,7 +17,7 @@
 * the implementation of the ball k-means algorithm is 'ball-kmeans-Xf.py' and 'ball-kmeans-Xd.py'.
 
 
-### Description of xd and xf versions：
+### Description of 'Xd' and 'Xf' versions：
 
 *'Xd' means that data is stored and operated in the program in double type.
 
