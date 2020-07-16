@@ -24,6 +24,11 @@
   
 * Intel MKL implementation, we recommend this one :https://software.intel.com/en-us/mkl
 
+
+### Installation requirements (Python):
+
+* Only need to rely on the dll and lib files in the compressed package 'ball_kmean.rar'.
+
 # Installation (C++)
 
 * Eigen 3: In order to use Eigen, you just need to download and extract Eigen's source code :http://eigen.tuxfamily.org/index.php?title=Main_Page#Download
