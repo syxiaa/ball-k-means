@@ -1,4 +1,4 @@
-### C++ version:
+# C++ version:
 
 * the implementations of the ball k-means algorithm are "ball_k_means_Xf.cpp" and "ball_k_means_Xd.cpp", which are code for "float" and "double" versions respectively.
 
@@ -29,8 +29,6 @@
 * Intel MKL implementation, we recommend this one: https://software.intel.com/en-us/mkl
 
 # Using
-
-## C++ version:
 
 ### Step 1: call "ball_k_means" function
 
