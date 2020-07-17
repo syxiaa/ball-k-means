@@ -47,7 +47,7 @@
 
 ### Installation requirements (Python):
 
-* Only need to rely on the DLL files.
+* Only need to rely on the DLL files in the "PythonVersion" file.
 
 # Installation (C++)
 
