@@ -1,6 +1,6 @@
 # ball-k-means
 
-* Implementations of ball k-means algorithms as described in xxxxxxx.
+* Implementations of ball k-means algorithms as described in https://ieeexplore.ieee.org/document/9139397.
 
 * the implementation of the ball k-means algorithm of the C++ version can be found in the 'C++Version' file.
 
