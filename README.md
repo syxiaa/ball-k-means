@@ -44,7 +44,7 @@
 
 ### Installation requirements (Python):
 
-* Only need to rely on the dll files.
+* Only need to rely on the DLL files.
 
 # Installation (C++)
 
@@ -56,23 +56,41 @@
 
 ## C++ version:
 
-* Call ball_k_means function
+### Call 'ball_k_means' function
 
 #### Parameters: 
 
 * dataset: clustering data in Matrix format in the Eigen library.
 
-* centroids: initial center point data in Matrix format in the Eigen library.
+* centroids: initial center point data in matrix format in the Eigen library.
 
 * detail: bool type variable, 'true' means output detailed information (including k value, distance calculation times, time, etc.), 'false' means no detailed information is output. The default is false.
 
 #### Output: 
 
-* labels: labels of clustering data in Matrix format in the Eigen library.
+* labels: labels of clustering data in matrix format in the Eigen library.
 
-### python version:
+## python version:
 
-* python: modify the location of the data and center point. In function 'ball_k_means', you can change the param 'isRing' ('0' represents the algorithm with ring area and others represent the algorithm with no ring area) to choose the different version of the algorithm.
+### Step1: declare class 'ball_k_means' and initialize algorithm.
+
+#### Parameters: 
+
+* isRing: int type, switch the ring version and the no ring version of the algorithm. '1' means the current algorithm is a ring version ,and others mean the current algorithm is no ring version.
+
+### Step2: call 'fit' function
+
+#### Parameters: 
+
+* s1: absolute path of th csv file of clustering data.
+
+* s2: absolute path of th csv file of initial center point data.
+
+* detail: bool type variable, 'true' means output detailed information (including k value, distance calculation times, time, etc.), 'false' means no detailed information is output. The default is false.
+
+#### Output: 
+
+* m: labels of clustering data in numpy matrix format.
 
 # Doesn't work?
 
