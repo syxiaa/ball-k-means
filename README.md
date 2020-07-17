@@ -54,7 +54,23 @@
 
 # Using
 
-* C++: In 'main' function, modify the location of the dataset and the centroids, loaded by the 'load_data' function.
+## C++ version:
+
+* Call ball_k_means function
+
+#### Parameters: 
+
+* dataset: clustering data in Matrix format in the Eigen library.
+
+* centroids: initial center point data in Matrix format in the Eigen library.
+
+* detail: bool type variable, 'true' means output detailed information (including k value, distance calculation times, time, etc.), 'false' means no detailed information is output. The default is false.
+
+#### Output: 
+
+* labels: labels of clustering data in Matrix format in the Eigen library.
+
+### python version:
 
 * python: modify the location of the data and center point. In function 'ball_k_means', you can change the param 'isRing' ('0' represents the algorithm with ring area and others represent the algorithm with no ring area) to choose the different version of the algorithm.
 
