@@ -28,6 +28,12 @@
   
 * Intel MKL implementation, we recommend this one: https://software.intel.com/en-us/mkl
 
+# Installation (C++)
+
+* Eigen 3: In order to use Eigen, you just need to download and extract Eigen's source code: http://eigen.tuxfamily.org/index.php?title=Main_Page#Download
+
+* ball_k_means_noRingVersion.cpp and ball_k_means_RingVersion.cpp both can be executed directly, only need to import Eigen library.
+
 # Using
 
 ### Step 1: call "ball_k_means" function
