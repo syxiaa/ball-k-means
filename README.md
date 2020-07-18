@@ -1,6 +1,6 @@
 # ball-k-means
 
-* Implementations of ball k-means algorithms as described in https://ieeexplore.ieee.org/document/9139397.
+* Ball k-means algorithms is described in detail in https://ieeexplore.ieee.org/document/9139397.
 
 * the implementation of the ball k-means algorithm of the C++ version can be found in the "C++Version" file.
 
@@ -8,25 +8,13 @@
 
 * All data used in the paper is in the compressed file "data+centers(1).zip".
 
-### C++ version:
+### C++/Python version:
 
-* the implementations of the ball k-means algorithm are "ball_k_means_Xf.cpp" and "ball_k_means_Xd.cpp", which are code for "float" and "double" versions respectively.
+* the implementations of the ball k-means algorithm are "ball_k_means_Xf.cpp"/"ball_k_means_Xf.py" and "ball_k_means_Xd.cpp"/"ball_k_means_Xd.py", which are code for "float" and "double" versions respectively.
 
 * the param "isRing" is used to switch the ring version and the no ring version of the algorithm.
 
-### Python version:
-
-* the implementation of the ball k-means algorithm is "ball_k_means_Xf.py" and "ball_k_means_Xd.py", which are code for "float" and "double" versions respectively..
-
-* the param "isRing" is used to switch ring version and no ring version of the algorithm.
-
-### Description of 'Xd' and 'Xf' versions：
-
-* "Xd" means that data is stored and operated in the program in "double" type.
-
-* "Xf" means that data is stored and operated in the program in "float" type.
-
-* According to our experience, the "Xd" version can get more accurate results but the running time is slightly slower, and the "Xf" version can reach the fastest running time, but low accuracy will result in inaccurate results.
+* According to our experience, the "Xd" version can get more accurate results but the running time is slightly slower than "Xf"; the "Xf" version can reach the fastest running time, but low accuracy may result in many decimal places of data .
 
 # Requirements
 
