@@ -927,8 +927,8 @@ void initialize(MatrixOur& dataset, MatrixOur& centroids, VectorXi& labels, Clus
 }
 
 
-VectorXi ball_k_means(MatrixOur& dataset, MatrixOur& centroids, int isRing = 0, bool detail = false) {
-    if (isRing == 1) {
+VectorXi ball_k_means(MatrixOur& dataset, MatrixOur& centroids, bool isRing = false, bool detail = false) {
+    if (isRing == true) {
         VectorXi labels = ball_k_means_Ring(dataset, centroids, detail);
         return labels;
     }
@@ -943,6 +943,6 @@ int main(int argc, char* argv[])
 {
     MatrixOur dataset = load_data("c:/users/yog/source/repos/test20/test20/data+centers/dataset/birchdata.csv");
     MatrixOur centroids = load_data("c:/users/yog/source/repos/test20/test20/data+centers/centroids/birch4.csv");
-    VectorXi labels = ball_k_means(dataset, centroids, 0, true);
+    VectorXi labels = ball_k_means(dataset, centroids, true, true);
 
 }
