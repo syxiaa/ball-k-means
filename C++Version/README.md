@@ -44,9 +44,9 @@
 
 * centroids: initial center point data in matrix format in the Eigen library.
 
-* isRing: int type, switch the ring version and the no ring version of the algorithm. '1' means the current algorithm is a ring version, and others mean the current algorithm is no ring version.
+* isRing: bool type, switch the ring version and the no ring version of the algorithm. 'true' means the current algorithm is a ring version, and others mean the current algorithm is no ring version.
 
-* detail: bool type variable, "true" means output detailed information (including k value, distance calculation times, time, etc.), "false" means no detailed information is output. The default is false.
+* detail: bool type, "true" means output detailed information (including k value, distance calculation times, time, etc.), "false" means no detailed information is output. The default is false.
 
 #### Output: 
 
