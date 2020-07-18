@@ -47,44 +47,47 @@
 
 ### C++ version (C++ 版本):
 
-##### Step 1: call "ball_k_means" function
+##### Step 1: call "ball_k_means" function. (调用"ball_k_means"函数)
 
-###### Parameters: 
+###### Parameters (参数说明): 
 
 * dataset: clustering data in Matrix format in the Eigen library.
 
 * centroids: initial center point data in matrix format in the Eigen library.
 
-* isRing: bool type, switch the ring version and the no ring version of the algorithm. "true" means the current algorithm is a ring version, and "false" means the current algorithm is no ring version. The default is false.
+* isRing: bool type, optional parameters, switch the ring version and the no ring version of the algorithm. "true" means the current algorithm is a ring version, and "false" means the current algorithm is no ring version. The default is false.
 
-* detail: bool type, "true" means output detailed information (including k value, distance calculation times, time, etc.), "false" means no detailed information is output. The default is false.
+* detail: bool type, optional parameters, "true" means output detailed information (including k value, distance calculation times, time, etc.), "false" means no detailed information is output. The default is false.
 
-###### Output: 
+###### Output (输出说明): 
 
 * labels: labels of clustering data in matrix format in the Eigen library.
 
-### python version:
+### python version (python 版本):
 
-##### Step 1: declare class "ball_k_means" and initialize algorithm.
+##### Step 1: declare class "ball_k_means" and initialize algorithm. (声明"ball_k_means"类，算法初始化)
 
-###### Parameters: 
+###### Parameters (参数说明): 
 
-* isRing: bool type, switch the ring version and the no ring version of the algorithm. "true" means the current algorithm is a ring version, and "false" means the current algorithm is no ring version. The default is false.
+* isRing: bool type, optional parameters, switch the ring version and the no ring version of the algorithm. "true" means the current algorithm is a ring version, and "false" means the current algorithm is no ring version. The default is false.
 
-* detail: bool type, "true" means output detailed information (including k value, distance calculation times, time, etc.), "false" means no detailed information is output. The default is false.
+* detail: bool type, optional parameters, "true" means output detailed information (including k value, distance calculation times, time, etc.), "false" means no detailed information is output. The default is false.
 
-##### Step 2: call "fit" function
+##### Step 2: call "fit" function (调用"fit"函数)
 
-###### Parameters: 
+###### Parameters (参数说明): 
 
 * dataset: absolute path of th csv file of clustering data.
 
 * centroids: absolute path of th csv file of initial center point data.
 
-###### Output: 
+###### Output (输出说明): 
 
 * labels: labels of clustering data in numpy matrix format.
 
-# Doesn't work?
+# Examples (示例):
+
+
+# Doesn't work? (有疑问？)
 
 * Please contact Yong Zheng at zhengyongv3@163.com
