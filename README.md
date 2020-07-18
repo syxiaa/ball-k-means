@@ -55,9 +55,9 @@
 
 * centroids: initial center point data in matrix format in the Eigen library.
 
-* isRing: int type, switch the ring version and the no ring version of the algorithm. '1' means the current algorithm is a ring version, and others mean the current algorithm is no ring version.
+* isRing: bool type, switch the ring version and the no ring version of the algorithm. "true" means the current algorithm is a ring version, and others mean the current algorithm is no ring version.
 
-* detail: bool type variable, "true" means output detailed information (including k value, distance calculation times, time, etc.), "false" means no detailed information is output. The default is false.
+* detail: bool type, "true" means output detailed information (including k value, distance calculation times, time, etc.), "false" means no detailed information is output. The default is false.
 
 #### Output: 
 
@@ -69,21 +69,21 @@
 
 #### Parameters: 
 
-* isRing: int type, switch the ring version and the no ring version of the algorithm. '1' means the current algorithm is a ring version, and others mean the current algorithm is no ring version.
+* isRing: int type, switch the ring version and the no ring version of the algorithm. "true" means the current algorithm is a ring version, and others mean the current algorithm is no ring version.
+
+* detail: bool type, "true" means output detailed information (including k value, distance calculation times, time, etc.), "false" means no detailed information is output. The default is false.
 
 ### Step 2: call "fit" function
 
 #### Parameters: 
 
-* s1: absolute path of th csv file of clustering data.
+* dataset: absolute path of th csv file of clustering data.
 
-* s2: absolute path of th csv file of initial center point data.
-
-* detail: bool type variable, "true" means output detailed information (including k value, distance calculation times, time, etc.), "false" means no detailed information is output. The default is false.
+* centroids: absolute path of th csv file of initial center point data.
 
 #### Output: 
 
-* m: labels of clustering data in numpy matrix format.
+* labels: labels of clustering data in numpy matrix format.
 
 # Doesn't work?
 
